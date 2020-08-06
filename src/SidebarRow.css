@@ -22,3 +22,15 @@
 .sidebarRow:hover > .sidebarRow__icons {
     color:red;
 }
+
+.sidebarRow.selected {
+    background-color: lightgray;
+}
+
+.sidebarRow.selected > .sidebarRow__icons {
+    color:red;
+}
+
+.sidebarRow.selected > .sidebarRow__title {
+    font-weight:bold;
+}

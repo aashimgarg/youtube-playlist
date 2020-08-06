@@ -3,10 +3,11 @@ import './SidebarRow.css';
 
 const SidebarRow = ({
     title,
-    Icon
+    Icon,
+    selected,
 }) => {
     return (
-        <div className="sidebarRow">
+        <div className={`sidebarRow ${selected && "selected"}`}>
             <Icon className="sidebarRow__icons" />
             <h2 className="sidebarRow__title">{title}</h2>
         </div>
