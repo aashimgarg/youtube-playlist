@@ -1,4 +1,18 @@
 .recomendedVideos{
-border: 1px solid red ;
-flex:.8;
+background-color: #f9f9f9 ;
+flex:.89;
+padding:40px 20px;
+padding-bottom:0px;
+}
+
+.recomendedVideos >h2{
+margin-left:5px;
+margin-bottom:20px ;
+font-weight:500;
+font-size:22px;
+}
+
+.recomendedVideos__videoCard{
+display: flex;
+flex-wrap: wrap;
 }
