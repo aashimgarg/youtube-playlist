@@ -1,7 +1,7 @@
 .searchPage {
     flex:0.885;
     background-color: #f9f9f9;
-    padding: 20px 20px;
+    padding: 3rem;
 }
 
 .searchPage__filter{
@@ -13,6 +13,8 @@
 
 .searchPage__filter > h2 {
     margin-left:10px;
+    font-size:17px;
+    font-weight:normal;
 }
 
 .searchPage > hr {
@@ -22,4 +24,11 @@
     margin-top: 10px;
     margin-bottom: 10px;
     width:100%;
+}
+
+.searchPage__latest{
+    color: #030303;
+    font-size:17px;
+    font-weight:normal;
+    margin:2rem 9rem !important;
 }

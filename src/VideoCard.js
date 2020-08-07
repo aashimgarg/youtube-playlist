@@ -22,7 +22,7 @@ const VideoCard = ({
                 <div className="videoCard__text">
                 <h4>{title}</h4>
                 <p>{channel}</p>
-                <p>{views} . {timestamp}</p>
+                <p>{views}&nbsp; . &nbsp;{timestamp}</p>
                 </div>
             </div>
         </div>

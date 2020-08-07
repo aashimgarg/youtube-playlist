@@ -1,18 +1,20 @@
 .channelRow{
     display:flex;
     align-items:center;
-    width:60%;
+    width:70%;
+    margin-left:4.5rem;
 }
 
 .channelRow__logo{
     width:130px !important;
     height:130px !important;
-    margin: 10px 70px;
+    margin: 10px 5rem 10px 7.5rem;
 }
 
 .channelRow__text{
     display:flex;
     flex-direction:column;
+    margin-right:3.5rem;
 }
 
 .channelRow__text > p{
